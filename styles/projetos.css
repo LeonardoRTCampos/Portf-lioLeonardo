@@ -1,0 +1,110 @@
+.container-projetos {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.projeto {
+  padding: 1rem;
+  border: 2px solid #222f33;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#portifolio {
+  padding: 3rem;
+}
+
+.title-port {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 38px;
+  color: #222f33;
+  margin: 1.5rem 0;
+}
+
+.projeto-principal-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.port-slide {
+  margin: 2rem 2rem 0 2rem;
+  padding: 0 1rem;
+  background-color: rgb(227, 227, 227);
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: center;
+  border-color: #646d70;
+  border-radius: 10px;
+  color: #484f51;
+}
+
+.port-slide:hover {
+  font-size: 18px;
+  transition: 0.8s;
+  color: black;
+  cursor: pointer;
+}
+
+.projeto button:hover {
+  background-color: rgb(227, 227, 227);
+  transition: 0.8s;
+  color: black;
+  cursor: pointer;
+}
+
+#portifolio h3 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 38px;
+  color: #222f33;
+  margin: 1.5rem 0;
+}
+
+.projeto img {
+  max-width: 90%;
+}
+
+.projeto h2 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 38px;
+  color: #222f33;
+  margin: 1.5rem 0;
+}
+.projeto p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #646d70;
+}
+.projeto p b {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.projeto button {
+  margin: 1rem 0 0 1rem;
+  padding: 0.5rem 0.8rem;
+  background-color: white;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: center;
+  border-color: #646d70;
+  border-radius: 10px;
+  color: #646d70;
+}

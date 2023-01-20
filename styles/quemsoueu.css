@@ -1,0 +1,135 @@
+.container-qse {
+  padding: 3rem 3rem 0 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  max-width: 100%;
+}
+
+.container-qse-texto {
+  background: white;
+  margin-top: 5rem;
+}
+
+.qse-texto-extra {
+  display: none;
+}
+
+.ativo {
+  display: block;
+  animation: show-up 1s forwards;
+}
+
+@keyframes show-up {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container-qse-texto button {
+  margin: 1rem 0 0 1rem;
+  padding: 0.8rem 1rem;
+  background-color: white;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: center;
+  border-color: #646d70;
+  border-radius: 10px;
+  color: #646d70;
+}
+
+.container-qse-texto button:hover {
+  font-size: 18px;
+  transition: 0.8s;
+  color: black;
+  cursor: pointer;
+}
+
+.container-qse-texto button::after {
+  padding-left: 0.8rem;
+  font-size: 18px;
+}
+
+.container-qse h2 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 38px;
+  color: #222f33;
+  margin: 1.5rem 0;
+}
+
+.container-qse p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #646d70;
+}
+
+.container-qse img:first-child {
+  position: relative;
+  top: -6rem;
+  width: 70%;
+}
+
+.imgExtraAbaixoPrincipal {
+  display: none;
+}
+
+.ativoImgExtra {
+  display: block;
+  position: relative;
+  top: -7rem;
+  left: 1rem;
+  width: 70%;
+  z-index: -1;
+  animation: show-up 1s forwards;
+}
+
+.container-qse-imgextra {
+  display: none;
+}
+
+.container-qse-imgextra :first-child {
+  position: relative;
+  top: -2rem;
+  left: 3rem;
+}
+
+.container-qse-imgextra :nth-child(2) {
+  position: relative;
+  top: -1rem;
+  left: 2rem;
+}
+
+.container-qse-imgextra :last-child {
+  position: relative;
+  top: -8rem;
+  left: 1rem;
+}
+
+.container-qse-imgextra img {
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+
+.fotoExtraAbaixoDaPrincipal {
+  position: relative;
+  right: 12rem;
+}
+
+.imgExtraAtivo {
+  display: flex;
+  margin-left: 3rem;
+  width: 30%;
+  animation: show-up 1s forwards;
+}

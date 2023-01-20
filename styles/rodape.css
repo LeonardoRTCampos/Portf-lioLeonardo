@@ -1,0 +1,31 @@
+.container-rodape {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222f33;
+  padding: 3rem;
+}
+
+.container-rodape a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.container-rodape h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 14px;
+  text-align: center;
+  margin-right: 1rem;
+  color: #fff;
+  text-shadow: 0.1em 0.1em #333;
+}
+
+.container-rodape img {
+  max-width: 32px;
+  margin-right: 1rem;
+}

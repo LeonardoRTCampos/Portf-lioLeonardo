@@ -1,0 +1,80 @@
+.container-menuApresentacao {
+  background-image: url("../imagens/programador.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+  padding: 3vh;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.cabecalho h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 14px;
+  text-align: center;
+  margin-right: 1rem;
+  color: #fff;
+  text-shadow: 0.1em 0.1em #333;
+}
+
+.menu-navegação ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-navegação ul li a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 14px;
+  text-align: center;
+  margin-right: 2rem;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0.1em 0.1em #333;
+  padding: 1rem 0;
+}
+
+.menu-navegação ul li a:hover {
+  transition: 0.7s;
+  font-size: 1.3rem;
+  color: rgb(226, 196, 121);
+}
+
+.secao-texto {
+  margin-top: 1rem;
+  padding: 6rem 2rem;
+}
+
+.secao-texto h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 19px;
+  text-shadow: 0.1em 0.1em #333;
+  margin-bottom: 1rem;
+}
+
+.secao-texto p {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 38px;
+  color: #ffffff;
+  text-shadow: 0.1em 0.1em #333;
+}
+
+.container-gridTextoApresentacao {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}

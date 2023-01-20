@@ -1,0 +1,24 @@
+@import "./styles/apresentacao.css";
+@import "./styles/quemsoueu.css";
+@import "./styles/minhasskils.css";
+@import "./styles/projetos.css";
+@import "./styles/rodape.css";
+@import "./styles/slideApresentacao.css";
+
+.body {
+  background-color: white;
+  width: 100%;
+}
+
+/*ITERAÇÕES COM JS*/
+
+.js [data-anime="scroll"] {
+  opacity: 0.1;
+  transition: 1s;
+  transform: translate3d(-30px, 0, 0);
+}
+
+.js [data-anime="scroll"].ativoanima {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
