@@ -97,14 +97,26 @@
 
 .projeto button {
   margin: 1rem 0 0 1rem;
-  padding: 0.5rem 0.8rem;
+  padding: 0.8rem 0.5rem;
   background-color: white;
+  border-color: #646d70;
+  border-radius: 10px;
   font-family: "Rubik";
   font-weight: 500;
   font-size: 16px;
   line-height: 14px;
   text-align: center;
-  border-color: #646d70;
-  border-radius: 10px;
+  color: #646d70;
+}
+
+.projeto button:hover {
+  background-color: rgb(227, 227, 227);
+  transition: 0.8s;
+  color: black;
+  cursor: pointer;
+}
+.projeto button a {
+  text-decoration: none;
+  padding: 0.8rem 0.5rem;
   color: #646d70;
 }
