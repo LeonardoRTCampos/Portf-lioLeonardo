@@ -6,8 +6,8 @@
 @import "./styles/slideApresentacao.css";
 
 body {
-  background-color: rgb(244, 244, 244);
-  width: 100%;
+  background-color: white;
+  max-width: 100%;
 }
 
 /*ITERAÇÕES COM JS*/

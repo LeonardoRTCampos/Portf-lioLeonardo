@@ -139,6 +139,7 @@
     padding: 3rem 2rem 0 3.5rem;
     gap: 3rem;
     max-width: 100%;
+    grid-template-columns: 1fr 1fr;
   }
   .container-qse-texto {
     margin-top: 1rem;
@@ -163,5 +164,61 @@
   .container-qse-imgextra :nth-child(2) {
     top: -10rem;
     left: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .container-qse {
+    padding: 1rem 2rem 0 2rem;
+    gap: 1rem;
+    max-width: 100%;
+    grid-template-columns: 1fr 10%;
+  }
+  .container-qse h2 {
+    font-size: 1.5rem;
+  }
+
+  .container-qse p {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #646d70;
+  }
+  .container-qse-texto {
+    margin-top: 1rem;
+  }
+  .container-qse-texto button {
+    padding: 0.5rem 0.7rem;
+    font-size: 0.2rem;
+  }
+
+  .container-qse-texto button::after {
+    font-size: 0.7rem;
+  }
+
+  .container-qse img:first-child {
+    width: 350%;
+    left: -6rem;
+    top: -3rem;
+  }
+  .imgExtraAbaixoPrincipal {
+    display: none;
+  }
+
+  .imgExtraAtivo {
+    margin-top: 5rem;
+    width: 40%;
+    margin-left: 0rem;
+  }
+
+  .container-qse-imgextra :last-child {
+    top: -2rem;
+    left: -7.5rem;
+  }
+  .container-qse-imgextra :nth-child(2) {
+    top: -9rem;
+    left: 4rem;
   }
 }

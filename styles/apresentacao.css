@@ -113,3 +113,26 @@
     line-height: 2rem;
   }
 }
+@media screen and (max-width: 428px) {
+  .menu-navegação {
+    display: none;
+  }
+
+  .secao-texto {
+    margin-top: 0rem;
+    padding: 1rem 2rem;
+  }
+
+  .secao-texto h1 {
+    font-size: 1rem;
+  }
+
+  .secao-texto p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .container-gridTextoApresentacao {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+}
