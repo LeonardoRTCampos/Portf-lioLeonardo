@@ -1,3 +1,17 @@
+#portifolio {
+  padding: 3rem;
+}
+
+#portifolio h3 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 38px;
+  color: #222f33;
+  margin: 1.5rem 0;
+}
+
 .container-projetos {
   padding: 2rem;
   display: grid;
@@ -10,10 +24,6 @@
   border: 2px solid #222f33;
   text-align: center;
   border-radius: 10px;
-}
-
-#portifolio {
-  padding: 3rem;
 }
 
 .title-port {
@@ -57,16 +67,6 @@
   transition: 0.8s;
   color: black;
   cursor: pointer;
-}
-
-#portifolio h3 {
-  font-family: "Merriweather";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 38px;
-  color: #222f33;
-  margin: 1.5rem 0;
 }
 
 .projeto img {
@@ -119,4 +119,37 @@
   text-decoration: none;
   padding: 0.8rem 0.5rem;
   color: #646d70;
+}
+
+@media screen and (max-width: 1024px) {
+  #portifolio {
+    padding: 2rem;
+  }
+  #portifolio h3 {
+    font-size: 1.5rem;
+  }
+  .container-projetos {
+    padding: 2rem 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  .projeto {
+    padding: 0.5rem;
+  }
+  .title-port {
+    font-size: 2rem;
+  }
+
+  .port-slide {
+    display: none;
+  }
+
+  .projeto h2 {
+    font-size: 1.5rem;
+  }
+  .projeto p {
+    color: #444a4c;
+  }
+  .projeto button a {
+    color: #444a4c;
+  }
 }

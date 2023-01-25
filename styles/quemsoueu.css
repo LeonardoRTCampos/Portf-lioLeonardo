@@ -133,3 +133,35 @@
   width: 30%;
   animation: show-up 1s forwards;
 }
+
+@media screen and (max-width: 1024px) {
+  .container-qse {
+    padding: 3rem 2rem 0 3.5rem;
+    gap: 3rem;
+    max-width: 100%;
+  }
+  .container-qse-texto {
+    margin-top: 1rem;
+  }
+  .container-qse img:first-child {
+    width: 85%;
+  }
+  .imgExtraAbaixoPrincipal {
+    width: 85%;
+    top: -1rem;
+  }
+
+  .imgExtraAtivo {
+    margin-top: 4rem;
+    width: 40%;
+  }
+
+  .container-qse-imgextra :last-child {
+    top: -27rem;
+    left: -13rem;
+  }
+  .container-qse-imgextra :nth-child(2) {
+    top: -10rem;
+    left: 4.5rem;
+  }
+}

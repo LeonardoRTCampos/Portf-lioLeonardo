@@ -29,3 +29,9 @@
   max-width: 32px;
   margin-right: 1rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .container-rodape h2 {
+    font-size: 1rem;
+  }
+}
