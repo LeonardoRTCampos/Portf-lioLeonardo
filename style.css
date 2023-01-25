@@ -5,8 +5,8 @@
 @import "./styles/rodape.css";
 @import "./styles/slideApresentacao.css";
 
-.body {
-  background-color: white;
+body {
+  background-color: rgb(244, 244, 244);
   width: 100%;
 }
 
