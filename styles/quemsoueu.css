@@ -191,7 +191,7 @@
   }
   .container-qse-texto button {
     padding: 0.5rem 0.7rem;
-    font-size: 0.2rem;
+    font-size: 1rem;
   }
 
   .container-qse-texto button::after {
