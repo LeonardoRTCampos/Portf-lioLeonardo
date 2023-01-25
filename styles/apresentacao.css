@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 1024px) {
   .container-menuApresentacao {
-    padding: 3vh 1vh;
+    padding: 3rem 1rem;
   }
   .cabecalho {
     display: flex;
@@ -114,13 +114,18 @@
   }
 }
 @media screen and (max-width: 428px) {
+  .cabecalho {
+    padding: 1rem;
+  }
+  .container-menuApresentacao {
+    padding: 1rem;
+  }
   .menu-navegação {
     display: none;
   }
 
   .secao-texto {
-    margin-top: 0.5rem;
-    padding: 1rem 2rem;
+    padding: 0 2rem;
   }
 
   .secao-texto h1 {
@@ -131,6 +136,7 @@
     font-size: 0.8rem;
     line-height: 1rem;
   }
+
   .container-gridTextoApresentacao {
     display: grid;
     grid-template-columns: 70% 30%;

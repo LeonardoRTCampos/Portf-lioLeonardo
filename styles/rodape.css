@@ -35,3 +35,15 @@
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 428px) {
+  .container-rodape {
+    padding: 2rem;
+  }
+  .container-rodape a {
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  .container-rodape h2 {
+    display: none;
+  }
+}

@@ -7,7 +7,7 @@
 
 body {
   background-color: white;
-  max-width: 100%;
+  width: 100%;
 }
 
 /*ITERAÇÕES COM JS*/
@@ -21,4 +21,9 @@ body {
 .js [data-anime="scroll"].ativoanima {
   opacity: 1;
   transform: translate3d(0, 0, 0);
+}
+@media screen and (max-width: 428px) {
+  body {
+    max-width: 100%;
+  }
 }

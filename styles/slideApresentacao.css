@@ -81,3 +81,9 @@
 .buttonLeft {
   right: 88.5%;
 }
+
+@media screen and (max-width: 428px) {
+  .apresentacaoSlide {
+    display: none;
+  }
+}
