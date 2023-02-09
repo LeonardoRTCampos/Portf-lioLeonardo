@@ -1,7 +1,5 @@
 .container-menuApresentacao {
-  background-image: url("../imagens/programador.webp");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: #ab651f;
   color: #fff;
   padding: 3rem 5rem;
 }
