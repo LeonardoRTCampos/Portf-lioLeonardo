@@ -1,5 +1,12 @@
 .container-menuApresentacao {
-  background-color: #ab651f;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 2%,
+    rgba(109, 117, 120, 1) 31%,
+    rgba(34, 47, 51, 1) 65%,
+    rgba(0, 0, 0, 1) 91%
+  );
   color: #fff;
   padding: 3rem 5rem;
 }
@@ -8,6 +15,7 @@
   display: flex;
   justify-content: space-between;
   padding: 2rem;
+  border-radius: 10px;
 }
 
 .cabecalho h1 {
@@ -49,7 +57,13 @@
 
 .secao-texto {
   margin-top: 1rem;
-  padding: 6rem 2rem;
+  padding: 4rem 2rem;
+}
+
+.secao-texto img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-left: 1rem;
 }
 
 .secao-texto h1 {
