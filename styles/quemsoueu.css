@@ -11,6 +11,10 @@
   margin-top: 5rem;
 }
 
+.container-qse-texto p {
+  margin-top: 1rem;
+}
+
 .qse-texto-extra {
   display: none;
 }
@@ -100,7 +104,7 @@
 
 .container-qse-imgextra :first-child {
   position: relative;
-  top: -2rem;
+  top: 1rem;
   left: 3rem;
 }
 

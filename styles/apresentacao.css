@@ -3,9 +3,9 @@
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 1) 2%,
-    rgba(109, 117, 120, 1) 31%,
-    rgba(34, 47, 51, 1) 65%,
-    rgba(0, 0, 0, 1) 91%
+    rgb(0, 84, 114) 31%,
+    rgb(0, 59, 78) 65%,
+    rgb(0, 13, 36) 91%
   );
   color: #fff;
   padding: 2.9rem 5rem;
